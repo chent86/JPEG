@@ -1,5 +1,5 @@
 function [huffman_AC] = huffman_for_AC(AC)
-% 对DC系数进行huffman编码
+% 对AC系数进行huffman编码
     huffman_AC = struct();
     for d=1:3  %对一个平面的所有块统一huffman
         binary='';
