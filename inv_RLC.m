@@ -16,7 +16,6 @@ function [target] = inv_RLC(origin, AC)
         for m=1:8:height
             for n=1:8:width  %(m,n)为8x8的左上角元素
                 block_index = block_index+1;
-                block_index
                 [~,c] = size(AC(d).block(block_index).index);
                 list = zeros(64);
                 pos=1;

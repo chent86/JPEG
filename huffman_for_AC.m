@@ -75,6 +75,6 @@ function [huffman_AC] = huffman_for_AC(AC)
         comp = huffmanenco(matrix, dict);
         huffman_AC(d).compress_data = comp;
         huffman_AC(d).dict = dict;
-        huffman_AC(d).binary = binary;        
+        huffman_AC(d).binary = binary;   
     end
 end

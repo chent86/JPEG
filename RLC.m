@@ -58,10 +58,10 @@ function [AC] = RLC(origin)
                        end
                    end
                 end
-                if flag == 1  % 最后补上(0,0)
+%                 if flag == 1  % 最后补上(0,0)   %最后一定要加上(0,0)表示处理完毕，用于后续判断
                     AC(d).block(block_index).index(pos).RUNLENGTH = 0;
                     AC(d).block(block_index).index(pos).VALUE = 0;
-                end
+%                 end
             end
         end
     end
